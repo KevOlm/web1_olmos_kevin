@@ -12,11 +12,21 @@
 <body>
     <!-- 1. Perfil -->
     <header>
-        <h1>PORTAFOLIO WEB</h1>
+        <button id="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+        <img src="./img/main_portrait.png" alt="Foto de Kevin Olmos" id="main_img">
+        <nav>
+            <ul>
+                <li><a href="#perfil_name" class="nav_link">Perfil</a></li>
+                <li><a href="#web_title" class="nav_link">Proyectos Web</a></li>
+                <li><a href="#game_title" class="nav_link">Videojuegos</a></li>
+                <li><a href="#music_title" class="nav_link">Música</a></li>
+                <li><a href="#social_title" class="nav_link">Redes Sociales</a></li>
+            </ul>
+        </nav>
     </header>
     <div class="perfil">
         <img src="./img/perfil.jpg" alt="Foto del programador, Kevin Olmos" id="perfil_img">
-        <h1>KEVIN STIVEN OLMOS RAMÓN</h1>
+        <h1 id="perfil_name">KEVIN STIVEN OLMOS RAMÓN</h1>
         <p>Ingeniero de Sistemas enfocado en el desarrollo web y de videojuegos, capaz de maniobrar con plataformas como
             Unity y Godot, manejando lenguajes como C++, Java, GDScript y C#</p>
     </div>
@@ -24,38 +34,67 @@
     <!-- 2. Proyectos Web -->
     <div class="web">
         <h2 id="web_title">Proyectos Web</h2>
-        <section class="web_section">Proyecto Web 1</section>
-        <section class="web_section">Proyecto Web 2</section>
-        <section class="web_section">Proyecto Web 3</section>
-        <section class="web_section">Proyecto Web 4</section>
+        <img src="https://xbsoftware.com/wp-content/uploads/2023/03/website-development-process-full-guide-1-twi.jpg" alt="" class="web_img">
+        <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/is_web_development_good_career.jpg" alt="" class="web_img">
+        <img src="https://cdn.prod.website-files.com/6344c9cef89d6f2270a38908/673f2a3b44c1ed4901bb43bb_6386328bea96dffacc89946b_d1.webp" alt="" class="web_img">
+        <img src="https://dianapps.com/blog/wp-content/uploads/2023/03/Untitled-design-40.png" alt="" class="web_img">
     </div>
 
     <!-- 3. Videojuegos -->
     <div class="games">
-        <h2 id="game_title">Proyectos de Videojuegos</h2>
-        <div class="game_section">Videojuego 1</div>
-        <div class="game_section">Videojuego 2</div>
-        <div class="game_section">Videojuego 3</div>
-        <div class="game_section">Videojuego 4</div>
+        <h2 id="game_title">Videojuegos</h2>
+        <div class="game_section">
+            <a href="https://tealko.itch.io/into-the-weezle-tower" class="game_link" target="_blank">
+                <img class="game_img" src="https://i.ytimg.com/an_webp/HOF-bTEG-6o/mqdefault_6s.webp?du=3000&sqp=CODTuMUG&rs=AOn4CLBtKHLyrfoPOR_BySlN3CnxeP33sw" alt="">
+            </a>
+        </div>
+        <div class="game_section">
+            <a href="https://tealko.itch.io/guns-volley" class="game_link" target="_blank">
+                <img class="game_img" src="https://i.ytimg.com/an_webp/eKmv9p5Tt9g/mqdefault_6s.webp?du=3000&sqp=COCSucUG&rs=AOn4CLDaivdHPTFNA7TAJZ0wIxobYLPy2Q" alt="">
+            </a>
+        </div>
+        <div class="game_section">
+            <a href="https://tealko.itch.io/pairs-in-hell" class="game_link" target="_blank">
+                <img class="game_img" src="https://i.ytimg.com/an_webp/kj_xeUkYgG8/mqdefault_6s.webp?du=3000&sqp=CN3QuMUG&rs=AOn4CLB9cNDzZdjAHQ0gtuj6j3T5A3iMMQ" alt="">
+            </a>
+        </div>
+        <div class="game_section">
+            <a href="https://tealko.itch.io/the-final-flight" class="game_link" target="_blank">
+                <img class="game_img" src="https://i.ytimg.com/an_webp/J3c1ZPCCROI/mqdefault_6s.webp?du=3000&sqp=CN6BucUG&rs=AOn4CLB_FKXs16Ktlpuw71NczOJxoJS3sg" alt="">
+            </a>
+        </div>
     </div>
 
     <!-- 4. Música -->
     <div class="music">
-        <h2 id="music_title">Proyectos de Música</h2>
-        <div id="music1">Música 1</div>
-        <div id="music2">Música 2</div>
-        <div id="music3">Música 3</div>
-        <div id="music4">Música 4</div>
+        <h2 id="music_title">Música</h2>
+        <div id="music1"><img class="music_img" alt="" src="https://hinves.com/wp-content/uploads/2023/06/como-mantener-tu-piano-en-perfectas-condiciones.jpg"></div>
+        <div id="music2"><img class="music_img" alt="" src="https://virtuosso.com/blog/wp-content/uploads/2012/03/virtuosos-del-violin.jpg"></div>
+        <div id="music3"><img class="music_img" alt="" src="https://i.ytimg.com/vi/3qfa9hGJzoY/maxresdefault.jpg"></div>
+        <div id="music4"><img class="music_img" alt="" src="https://www.guitarrasfuentes.com/wp-content/uploads/2023/02/que-es-mejor-una-guitarra-acustica-o-electroacustica.jpg"></div>
     </div>
 
     <!-- 5. Redes Sociales -->
     <footer>
         <h2 id="social_title">Redes Sociales</h2>
-        <a href="https://github.com/KevOlm" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github"></a>
-        <a href="https://www.linkedin.com/in/kevin-stiven-olmos-ram%C3%B3n-449a54292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
-        <a href="https://tealko.itch.io/" target="_blank">Itch.io</a>
-        <a href="https://www.youtube.com/@TealKO" target="_blank">Youtube</a>
+        <a href="https://github.com/KevOlm" target="_blank">
+            <img class="social_icon" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github">
+        </a>
+        <a href="https://www.linkedin.com/in/kevin-stiven-olmos-ram%C3%B3n-449a54292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <img class="social_icon" src="https://cdn-icons-png.flaticon.com/512/4401/4401412.png" alt="LinkedIn">
+        </a>
+        <a href="https://tealko.itch.io/" target="_blank">
+            <img class="social_icon" src="https://iconape.com/wp-content/png_logo_vector/itch-io-logo.png" alt="Itch.io">
+        </a>
+        <a href="https://www.youtube.com/@TealKO" target="_blank">
+            <img class="social_icon" src="https://www.iconpacks.net/icons/1/free-youtube-icon-123-thumb.png" alt="Youtube">
+        </a>
     </footer>
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('open');
+        });
+    </script>
 </body>
 
 </html>
